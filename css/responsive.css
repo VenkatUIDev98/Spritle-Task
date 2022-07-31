@@ -1,0 +1,30 @@
+@media only screen and (max-width: 992px) {
+    #inner {
+        padding: 0px 10px;
+    }
+    .logo-about {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .logo-about {
+        display: none ;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #inner {
+        height: auto;
+    }
+    #header-inner1, #header-inner2 {
+        justify-content: center;
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+     
+}
+
+
